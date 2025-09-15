@@ -1,0 +1,56 @@
+# === my-blog 프로젝트 전용 무시 규칙 ===
+my-blog/dist/
+my-blog/node_modules/
+my-blog/build/
+
+# Logs
+my-blog/logs
+my-blog/*.log
+my-blog/npm-debug.log*
+my-blog/pnpm-debug.log*
+my-blog/yarn-debug.log*
+my-blog/yarn-error.log*
+my-blog/lerna-debug.log*
+
+# OS
+my-blog/.DS_Store
+
+# Tests
+my-blog/coverage/
+my-blog/.nyc_output/
+
+# IDEs and editors
+my-blog/.idea/
+my-blog/.project
+my-blog/.classpath
+my-blog/.c9/
+my-blog/*.launch
+my-blog/.settings/
+my-blog/*.sublime-workspace
+
+# VSCode (my-blog 안에서만)
+my-blog/.vscode/*
+!my-blog/.vscode/settings.json
+!my-blog/.vscode/tasks.json
+!my-blog/.vscode/launch.json
+!my-blog/.vscode/extensions.json
+
+# dotenv
+my-blog/.env
+my-blog/.env.development.local
+my-blog/.env.test.local
+my-blog/.env.production.local
+my-blog/.env.local
+
+# temp
+my-blog/.temp
+my-blog/.tmp
+
+# Runtime data
+my-blog/pids
+my-blog/*.pid
+my-blog/*.seed
+my-blog/*.pid.lock
+
+# Diagnostic reports
+my-blog/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
